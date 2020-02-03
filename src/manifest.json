@@ -1,16 +1,16 @@
 {
    "manifest_version": 2,
-   "name": "Avanti Sponsorkliks",
-   "version": "1.0.3",
+   "name": "Klimopgroep Sponsorkliks",
+   "version": "1.0.0",
 
-   "description": "Geeft een herinnering bij het bezoeken van deelnemende webwinkels dat u via Sponsorkliks kunt winkelen. Verdien geld voor Avanti!",
+   "description": "Geeft een herinnering bij het bezoeken van deelnemende webwinkels dat u via Sponsorkliks kunt winkelen. Verdien geld voor de Klimopgroep!",
    "icons": {
-      "128": "icons/avanti128.png",
-      "48": "icons/avanti48.png",
-      "16": "icons/avanti16.png"
+      "128": "icons/klimoplogo128.png",
+      "48": "icons/klimoplogo48.png",
+      "16": "icons/klimoplogo16.png"
    },
 
-   "author": "Erik van der Veen",
+   "author": "Joost van Viegen",
 
    "content_scripts": [ {
       "js": [ "shops.js", "content.js" ],
