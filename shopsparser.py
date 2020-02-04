@@ -22,7 +22,7 @@ try:
             strings = str(s)
             print(strings)
             driver.get("https://sponsorkliks.com" + s.get('href'))
-            time.sleep(10)
+            time.sleep(15)
             targetUrl = driver.current_url
             targetUrl = str(targetUrl)
             targetUrl = urlparse(targetUrl)
@@ -45,6 +45,7 @@ try:
             }
             shops[i] = shop
             i += 1
+            print("bij " + str(i) + " van de " + str(len(shopsHtml)))
 
         print (json.dumps(shops))
         file = open("shops.json", "w+")
