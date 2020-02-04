@@ -31,7 +31,7 @@ try:
             print(targetUrl)
 
             domain = targetUrl
-            name = re.findall("shop=([A-z][^&]+)&", strings)
+            name = re.findall("shop=([^&]+)&", strings)
             id = re.findall("shop_id=([0-9]+)&", strings)
 
             print ("id = " + id[0])
