@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
    "name": "Klimopgroep Sponsorkliks",
-   "version": "1.0.0",
+   "version": "1.0.1",
 
    "description": "Geeft een herinnering bij het bezoeken van deelnemende webwinkels dat u via Sponsorkliks kunt winkelen. Verdien geld voor de Klimopgroep!",
    "icons": {
