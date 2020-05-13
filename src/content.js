@@ -1,7 +1,7 @@
 var clubId = 6654;
 var clubName = "Scouting Klimopgroep Waddinxveen";
 var clubLink = "https://www.sponsorkliks.com/winkels.php?club=6654";
-var excludes = ["sponsorkliks.com", "ideal", "utm_medium"];
+var excludes = ["sponsorkliks.com", "ideal", "utm_medium", "microsoft.com"];
 var sponsorkliksLink = "http://www.sponsorkliks.com/link.php?club={club_id}&shop_id={shop_id}&shop={shop_name}";
 
 function extractDomain(url)
